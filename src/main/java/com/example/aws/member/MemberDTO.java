@@ -17,4 +17,5 @@ public class MemberDTO {
                 .userPwd(userPwd)
                 .build();
     }
+
 }
