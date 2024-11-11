@@ -1,12 +1,14 @@
 package com.example.aws.member;
 
 import jakarta.persistence.*;
-import lombok.Builder;
-import lombok.ToString;
+import lombok.*;
 
 @Entity
 @ToString
+@Getter
 @Table(name = "member")
+@NoArgsConstructor
+@AllArgsConstructor
 @Builder
 public class MemberEntity {
     @Id

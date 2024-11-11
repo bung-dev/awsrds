@@ -1,9 +1,9 @@
 package com.example.aws.member;
 
-import lombok.Getter;
+import lombok.Data;
 
 
-@Getter
+@Data
 public class MemberDTO {
 
     private String userName;
