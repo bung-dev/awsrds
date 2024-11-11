@@ -173,8 +173,6 @@ gradle-app.setting
 
 # End of https://www.toptal.com/developers/gitignore/api/java,intellij,gradle
 
-### application.properties파일
-/src/main/resources/application.properties
 
 /db
 docker-compose.yml
